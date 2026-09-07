@@ -12,7 +12,11 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "mongodb": "^7.6.0",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^9.9.5",
     "nodemon": "^3.1.14"
   }
 }

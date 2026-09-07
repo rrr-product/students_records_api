@@ -10,3 +10,7 @@ Provides students record system api for my angular application.
 4. `git add .`
 5. `git commit -m "Your message"`
 6. `git push -u origin main` or `git push`
+
+### Database
+
+* NoSql (MongoDB)

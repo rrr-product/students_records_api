@@ -1,8 +1,12 @@
 import express from "express";
 import studentRouts from "./routes/students.route.js"
+import connectDB from "./lib/db.js";
 
 const app = express();
-const PORT = 6969
+const PORT = 6969;
+
+// DB connection
+connectDB();
 
 
 app.get("/",(req, res) => {
