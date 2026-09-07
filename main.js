@@ -1,6 +1,8 @@
 import express from "express";
+import studentRouts from "./routes/students.route.js"
 
 const app = express();
+const PORT = 6969
 
 
 app.get("/",(req, res) => {
@@ -9,6 +11,10 @@ app.get("/",(req, res) => {
     })
 })
 
-app.listen(6969, () => {
-    console.log(`Server is running in http//localhost:${6969}`)
+// CRUD Operation for Students record
+
+app.use("/student", studentRouts);
+
+app.listen(PORT, () => {
+    console.log(`Server is running in http//localhost:${PORT}`)
 })

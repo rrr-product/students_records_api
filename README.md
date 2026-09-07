@@ -1,5 +1,6 @@
 # students_records_api
-Provides students record system api for my angular application
+Provides students record system api for my angular application.    
+  You can use the command `npm run server` to run the project.
 
 ### Important Commands
 
